@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+li{
+	list-style: none;
+	a{
+		text-decoration: none;
+		color: black;
+		&:hover{
+			color: rgba(3, 2, 2, 0.6);
+		}
+	}
+}
+
+.header1{
+	padding-top: 10px;
+	background-color: #EDEEEF;
+	
+	.left{
+		ul{
+			li{
+				margin-right: 20px ;
+				font-size: 13px;
+				color: rgba(0, 0, 0, 0.345);
+			}
+			.canavar{
+				border:  1px solid red	;
+				border-radius: 10px;
+				padding: 0 5px;
+				font-weight: bold;
+				cursor: pointer;
+			}
+		}
+	}
+	.right{
+		display: flex;
+		justify-content: end;
+		ul{
+			margin-right: 10px;
+			li{
+				margin-left: 30px;
+				font-size: 14px;
+				
+			}
+			.languageAZ{
+				position: relative;
+			}
+			
+			
+		}
+	}
+	
+}
+.lupa-js{
+	display: none;
+	.lupa{
+		background-color: #fff;
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 25px;
+			input{
+			padding: 15px 0;
+			width: 100%;
+			font-size: 40px;
+			border: none;
+			&:focus{
+				outline: none;
+			}
+		}
+		span{
+			font-size: 50px;
+			padding-right: 15px;
+			padding-left: 15px;
+			cursor: pointer;
+		}
+	}
+}
+.active{
+	display: block !important;
+}
+
+.languageJs{
+	background-color: #fff !important;
+	display: none;
+	.language{
+		display: inline-block;
+		text-align: center;
+		padding: 10px 20px 0 0;
+		position: absolute;
+		right: 66px;
+		top: 34px;
+		box-shadow: rgba(0, 0, 0, 25%) 1px 20px 20px 9px, rgb(0, 0, 0, 12%) 0px -12px 30px, rgb(0, 0, 0,12%) 0px 4px 6px, rgba(0, 0, 0, 17%) 1px 20px 13px, rgb(0, 0, 0,9%) 0px -3px 5px;		
+	}
+}
+.lang{
+	display: block !important;
+}
+
+.icon{
+	transform: rotate(180deg);
+}

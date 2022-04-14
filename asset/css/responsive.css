@@ -1,0 +1,26 @@
+@media (max-width : 777px ){
+    .head-mobile{
+      display: none;
+    }
+    .header-mobile a{
+      color: black;
+      text-decoration: none;
+    }
+    .header-mobile a:hover{
+      color: rgba(0, 0, 0, 0.678);
+    }
+    .header-mobile{
+      display: block !important;
+    }
+    .center2{
+      display: none !important;
+    }
+    .centerBars{
+      display: block !important;
+    }
+    .mm{
+      display: block !important;
+    }
+  }
+
+  
